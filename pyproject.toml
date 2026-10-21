@@ -1,0 +1,15 @@
+[project]
+name = "ai-metadata-remover"
+version = "1.0.0"
+description = "Remove AI-generated metadata from images"
+requires-python = ">=3.9"
+dependencies = ["Pillow>=10.0.0"]
+
+[project.scripts]
+ai-metadata-remover = "cli:main"
+
+[tool.ruff]
+line-length = 100
+
+[tool.black]
+line-length = 100
